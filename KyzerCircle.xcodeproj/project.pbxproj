@@ -11,6 +11,7 @@
 		1630B79C2C17E458009EA3AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630B79B2C17E458009EA3AD /* SceneDelegate.swift */; };
 		1630B79E2C17E458009EA3AD /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630B79D2C17E458009EA3AD /* MainVC.swift */; };
 		1630B7A32C17E45A009EA3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1630B7A22C17E45A009EA3AD /* Assets.xcassets */; };
+		1630B7AE2C17E9F6009EA3AD /* CircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630B7AD2C17E9F6009EA3AD /* CircleViewModel.swift */; };
 		E0BFD0E5F718D730F75527B7 /* Pods_KyzerCircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C700F5F73F3199E4B0F0D8 /* Pods_KyzerCircle.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		1630B79D2C17E458009EA3AD /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		1630B7A22C17E45A009EA3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1630B7A72C17E45A009EA3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1630B7AD2C17E9F6009EA3AD /* CircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModel.swift; sourceTree = "<group>"; };
 		A7759E3E37C7C90561844712 /* Pods-KyzerCircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KyzerCircle.release.xcconfig"; path = "Target Support Files/Pods-KyzerCircle/Pods-KyzerCircle.release.xcconfig"; sourceTree = "<group>"; };
 		B7C700F5F73F3199E4B0F0D8 /* Pods_KyzerCircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KyzerCircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DDE50E69AB6EC41A4600A8 /* Pods-KyzerCircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KyzerCircle.debug.xcconfig"; path = "Target Support Files/Pods-KyzerCircle/Pods-KyzerCircle.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				1630B7992C17E458009EA3AD /* AppDelegate.swift */,
 				1630B79B2C17E458009EA3AD /* SceneDelegate.swift */,
 				1630B79D2C17E458009EA3AD /* MainVC.swift */,
+				1630B7AD2C17E9F6009EA3AD /* CircleViewModel.swift */,
 				1630B7A22C17E45A009EA3AD /* Assets.xcassets */,
 				1630B7A72C17E45A009EA3AD /* Info.plist */,
 			);
@@ -200,6 +203,7 @@
 			files = (
 				1630B79E2C17E458009EA3AD /* MainVC.swift in Sources */,
 				1630B79A2C17E458009EA3AD /* AppDelegate.swift in Sources */,
+				1630B7AE2C17E9F6009EA3AD /* CircleViewModel.swift in Sources */,
 				1630B79C2C17E458009EA3AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
