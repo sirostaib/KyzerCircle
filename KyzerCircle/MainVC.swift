@@ -23,6 +23,20 @@ class MainVC: UIViewController {
         circleView.center = view.center
         circleView.backgroundColor = .cyan
         view.addSubview(circleView)
+        AddGest()
+    }
+    
+    func AddGest() {
+        // Add gesture recognizer
+        let gestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(circleMoved(_:)))
+        circleView.addGestureRecognizer(gestureRecognizer)
+    }
+    
+    @objc func circleMoved(_ recognizer: UIPanGestureRecognizer) {
+        let location = recognizer.location(in: view)
+        UIView.animate(withDuration: 0.1) {
+            self.circleView.center = location
+        }
     }
     
 }
